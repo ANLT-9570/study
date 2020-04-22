@@ -1,0 +1,27 @@
+server:
+  port: 8087 #服务端口
+spring:
+  application:
+    name: app-zuul-gateway #指定服务名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://120.79.42.229:7777/eureka/,http://120.79.42.229:8888/eureka/,http://120.79.42.229:9999/eureka/
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+#  instance:
+#    prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+#    ip-address: 127.0.0.1
+#    instance-id: ${spring.application.name}###${server.port} #指定实例id
+
+zuul:
+  routes: #定义服务转发规则
+    item-service: #item-service这个名字任意取的
+      path: /item-service/** #配置请求URL的请求规则
+#      url: http://134.175.244.202:8081 #真正的微服务地址，path匹配的请求都转发到这里http://134.175.244.202:8081  http://127.0.0.1:8081
+      service-id: app-item
+    order-service:
+      path: /order-service/**
+      service-id: app-order
