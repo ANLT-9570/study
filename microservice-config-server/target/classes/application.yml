@@ -13,3 +13,27 @@ spring:
           username: 1907402902@qq.com          #码云账号（公有项目不需要设置）
           password: 1907402902h 	#码云密码（公有项目不需要设置）
       label: master	#分支名称
+
+###服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://120.79.42.229:7777/eureka/,http://120.79.42.229:8888/eureka/,http://120.79.42.229:9999/eureka/
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+  instance:
+    #设置使用IP
+    prefer-ip-address: true
+    #设置外网IP号
+    ip-address: 134.175.244.202
+    #设置外网端口号
+    non-secure-port: 7788
+
+#开启所有端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

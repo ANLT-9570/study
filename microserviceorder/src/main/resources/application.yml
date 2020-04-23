@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8092
 
 
 myspcloud:
@@ -25,7 +25,7 @@ eureka:
     #设置外网IP号
     ip-address: 134.175.244.202
     #设置外网端口号
-    non-secure-port: 8082
+    non-secure-port: 8092
     #配置文件中开启hystrix
 feign:
   hystrix:

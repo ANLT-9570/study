@@ -1,4 +1,5 @@
-D:\cloud\microserviceitem\src\main\java\com\xc\ItemApp.java
-D:\cloud\microserviceitem\src\main\java\com\xc\Item.java
-D:\cloud\microserviceitem\src\main\java\com\xc\controller\ItemController.java
-D:\cloud\microserviceitem\src\main\java\com\xc\service\ItemService.java
+D:\cloud\study\microserviceitem\src\main\java\com\xc\service\ItemService.java
+D:\cloud\study\microserviceitem\src\main\java\com\xc\controller\ItemController.java
+D:\cloud\study\microserviceitem\src\main\java\com\xc\ItemApp.java
+D:\cloud\study\microserviceitem\src\main\java\com\xc\Item.java
+D:\cloud\study\microserviceitem\src\main\java\com\xc\config\JdbcConfigBean.java

@@ -6,11 +6,13 @@ import com.xc.feign.ItemFeignClient;
 import com.xc.utils.OrderProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class ItemService {
@@ -58,11 +60,16 @@ public class ItemService {
 
     @HystrixCommand(fallbackMethod = "queryItemByIdFallbackMethod")
     public Item queryItemById2(Long id) {
+        List<ServiceInstance> instances = discoveryClient.getInstances("app-item");
+        ServiceInstance serviceInstance = instances.get(0);
+
+        int port = serviceInstance.getPort();
 
         String itemUrls = "http://app-item/item/";
         Item result = this.restTemplate.getForObject(itemUrls
                 + id, Item.class);
         System.out.println("===========HystrixCommand queryItemById-线程池名称：" + Thread.currentThread().getName() + "订单系统调用商品服务,result:" + result);
+        result.setTitle("端口号：.."+port+"");
         return result;
     }
 
