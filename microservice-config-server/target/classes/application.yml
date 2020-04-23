@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git: #配置git仓库地址
-          uri: https://github.com/ANLT-9570/study.git
-          search-paths: myconfig
-#            - myconfig		#配置文件目录地址
-#          username: 1907402902@qq.com          #码云账号（公有项目不需要设置）
-#          password: 1907402902h 	#码云密码（公有项目不需要设置）
+          uri: https://github.com/ANLT-9570/myconfig.git
+          search-paths:
+            - config		#配置文件目录地址
+          username: 1907402902@qq.com          #码云账号（公有项目不需要设置）
+          password: 1907402902h 	#码云密码（公有项目不需要设置）
       label: master	#分支名称
