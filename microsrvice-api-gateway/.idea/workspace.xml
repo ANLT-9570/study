@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdc9c014-9321-42d1-b0ac-d5cd7cedfa18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../microservice-config-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-config-server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceitem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../micro/micro-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../micro/micro-parent/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,9 +95,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="165" />
-    <option name="y" value="-15" />
-    <option name="width" value="1643" />
+    <option name="x" value="26" />
+    <option name="width" value="1408" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -224,15 +221,16 @@
       <workItem from="1587707956865" duration="515000" />
       <workItem from="1587708580153" duration="295000" />
       <workItem from="1587709003437" duration="688000" />
-      <workItem from="1587712918725" duration="1908000" />
+      <workItem from="1587712918725" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15284000" />
+    <option name="totallyTimeSpent" value="15500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
