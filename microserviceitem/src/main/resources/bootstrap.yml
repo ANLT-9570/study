@@ -14,6 +14,11 @@ spring:
         enabled: true #启用发现服务功能
         service-id: microservice-config-server #指定配置中心工程的名称
 
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 ###服务注册到eureka注册中心的地址
 eureka:
