@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd69e81-82ce-4aa7-b35e-cb38a6df5c55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-config-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceitem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceitem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceitem/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceitem/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/com/xc/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/com/xc/ItemApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/com/xc/config/JdbcConfigBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/com/xc/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceitem/target/classes/com/xc/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceorder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceorder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/src/main/java/com/xc/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/src/main/java/com/xc/ApiGatewayApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbd69e81-82ce-4aa7-b35e-cb38a6df5c55" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,8 +224,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="width" value="1408" />
+    <option name="x" value="165" />
+    <option name="y" value="-15" />
+    <option name="width" value="1643" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -306,6 +288,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -365,7 +348,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34971428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34971428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

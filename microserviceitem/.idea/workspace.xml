@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057f5830-6bc0-4cb8-b3de-7ab797a773a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../microservice-config-server/microservice-config-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservice-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservice-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservice-config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-config-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xc/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xc/ItemApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xc/config/JdbcConfigBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xc/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xc/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceorder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microserviceorder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microserviceorder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microsrvice-api-gateway/src/main/java/com/xc/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../microsrvice-api-gateway/src/main/java/com/xc/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservice-config-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservice-config-server/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -163,8 +146,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="26" />
-    <option name="width" value="1408" />
+    <option name="x" value="165" />
+    <option name="y" value="-15" />
+    <option name="width" value="1643" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
