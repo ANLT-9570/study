@@ -7,6 +7,8 @@
 
     <modules>
         <module>micro-service-user-api</module>
+        <module>micro-service-order-api</module>
+        <module>micro-service-item-api</module>
     </modules>
 
     <parent>
