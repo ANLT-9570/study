@@ -1,5 +1,6 @@
 package com.micro.order.service.impl;
 
+//import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import com.micro.common.utils.Result;
 import com.micro.item.feign.ItemFeign;
 import com.micro.item.pojo.Item;
@@ -35,6 +36,8 @@ public class OrderServiceImpl implements OrderService {
         return Result.successResult(o);
     }
 
+
+//    @LcnTransaction
     @Transactional
     public Result orderAndItem(Long t) {
         Orders orders = new Orders();

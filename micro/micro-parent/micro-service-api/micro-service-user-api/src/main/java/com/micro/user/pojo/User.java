@@ -10,7 +10,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-@Table(name = "tb_user")
+@Table(name = "m_user")
 @Data
 @ToString
 @NoArgsConstructor
