@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-common" />
+        <module name="micro-common-db" />
+        <module name="micro-config-server" />
+        <module name="micro-eureka-server" />
+        <module name="micro-gateway" />
+        <module name="micro-service-item" />
+        <module name="micro-service-item-api" />
+        <module name="micro-service-order" />
+        <module name="micro-service-order-api" />
+        <module name="micro-service-test" />
+        <module name="micro-service-user" />
+        <module name="micro-service-user-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

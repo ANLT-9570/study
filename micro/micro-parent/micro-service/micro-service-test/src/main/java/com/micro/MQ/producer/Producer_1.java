@@ -25,7 +25,7 @@ public class Producer_1 {
         //创建一个队列
         channel.queueDeclare(QUEUE_NAME,false,false,false,null);
 
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=100;i++){
 
         //创建信息
         String msg = "生产者11122"+"_"+i;

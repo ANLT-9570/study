@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/micro-service-api/micro-service-user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service/micro-service-item" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service/micro-service-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service/micro-service-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service/micro-service-user" charset="UTF-8" />
   </component>
 </project>

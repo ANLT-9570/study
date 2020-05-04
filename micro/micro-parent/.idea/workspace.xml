@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="154c4ad8-2616-4362-8e2d-99ed3f249fc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/MQConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/MQConnectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/consumer/Consumer_01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/consumer/Consumer_01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/consumer/Consumer_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/consumer/Consumer_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/producer/Producer_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/MQ/producer/Producer_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-test/target/classes/com/micro/app.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-order/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-user/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-test/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-item/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="micro-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-eureka-server/src/main/java/com/xc/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_02.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="490" />
+    <option name="y" value="-4" />
+    <option name="width" value="1410" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588606898950" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.micro.MQ.consumer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.14088398" />
+  </component>
+  <component name="RunManager" selected="Application.Consumer_02">
+    <configuration name="Consumer_02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQ.consumer.Consumer_02" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQ.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQ.producer.Producer_1" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQ.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.item.pojo.asd" />
+      <module name="micro-service-item-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.item.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-item" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.ItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.asd" />
+      <item itemvalue="Application.Consumer_02" />
+      <item itemvalue="Spring Boot.app" />
+      <item itemvalue="Spring Boot.ItemApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Application.Producer_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Consumer_02" />
+        <item itemvalue="Application.Producer_1" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Application.asd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7026504c-39f6-4a70-ad7a-9e206a9abf94" name="Default Changelist" comment="" />
+      <created>1587362594310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587362594310</updated>
+      <workItem from="1587362597054" duration="5367000" />
+      <workItem from="1587367981277" duration="1709000" />
+      <workItem from="1587369702667" duration="6212000" />
+      <workItem from="1587429941037" duration="3389000" />
+      <workItem from="1587633848957" duration="1244000" />
+      <workItem from="1587690450756" duration="864000" />
+      <workItem from="1587711505684" duration="1632000" />
+      <workItem from="1587713158440" duration="1580000" />
+      <workItem from="1587715092643" duration="2483000" />
+      <workItem from="1587718519060" duration="1597000" />
+      <workItem from="1587950295459" duration="3525000" />
+      <workItem from="1587953923733" duration="8532000" />
+      <workItem from="1587968946320" duration="1339000" />
+      <workItem from="1587970517345" duration="8816000" />
+      <workItem from="1588034707286" duration="3559000" />
+      <workItem from="1588040225443" duration="9094000" />
+      <workItem from="1588065667509" duration="2599000" />
+      <workItem from="1588121055849" duration="19755000" />
+      <workItem from="1588207005513" duration="8296000" />
+      <workItem from="1588229328870" duration="5510000" />
+      <workItem from="1588296009571" duration="12036000" />
+      <workItem from="1588601834923" duration="235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2275000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496063" visible="true" weight="0.28234503" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.30299786" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.503937" side_tool="true" weight="0.28234503" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.336" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39367816" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.08571429" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.33764368" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.09051724" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25808626" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32976446" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
