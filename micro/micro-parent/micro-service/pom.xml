@@ -7,6 +7,7 @@
         <module>micro-service-user</module>
         <module>micro-service-order</module>
         <module>micro-service-item</module>
+        <module>micro-service-test</module>
     </modules>
     <parent>
         <groupId>com.example.xc</groupId>
