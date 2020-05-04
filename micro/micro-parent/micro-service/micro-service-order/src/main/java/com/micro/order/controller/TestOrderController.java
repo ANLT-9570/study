@@ -17,7 +17,7 @@ public class TestOrderController {
     RateLimiter rateLimiter = RateLimiter.create(1);//独立线程
 
     @GetMapping("/xl")
-    @ExtRateLimiter
+    @ExtRateLimiter(permitsPerSecond = 1.0,timeOut = 500)
     public String addOrder(){
         //从桶中拿到令牌等待的时间
 //        double acquire = rateLimiter.acquire();

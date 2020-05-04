@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7026504c-39f6-4a70-ad7a-9e206a9abf94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/micro-service-item.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/ItemApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/config/DruidConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/dao/ItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-item/target/classes/com/micro/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/anonation/ExtRateLimiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/anonation/ExtRateLimiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/anonation/aop/RateLimiterAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/anonation/aop/RateLimiterAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/controller/TestOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/micro-service-order/target/classes/com/micro/order/controller/TestOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +42,7 @@
     <ignored path="$PROJECT_DIR$/micro-service/micro-service-item/target/" />
     <ignored path="$PROJECT_DIR$/micro-service-api/micro-service-order-api/target/" />
     <ignored path="$PROJECT_DIR$/micro-service-api/micro-service-item-api/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,59 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-eureka-server/src/main/java/com/xc/EurekaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="312">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,22 +70,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="480">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java">
+        <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="428">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk8/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="74" column="76" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -145,11 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/micro-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-service-api/micro-service-order-api/src/main/java/com/micro/order/pojo/order.java" />
-        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/UserApplication.java" />
-        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/Order.java" />
-        <option value="$PROJECT_DIR$/micro-service-api/micro-service-order-api/src/main/java/com/micro/order/pojo/Order.java" />
         <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/micro-service/micro-service-item/pom.xml" />
         <option value="$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/item.java" />
@@ -193,9 +220,14 @@
         <option value="$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/Myconfig.java" />
         <option value="$PROJECT_DIR$/micro-common/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java" />
-        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java" />
         <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java" />
       </list>
     </option>
   </component>
@@ -205,7 +237,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="491" />
     <option name="y" value="-3" />
     <option name="width" value="1409" />
@@ -217,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -228,26 +261,61 @@
             <path>
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -255,7 +323,7 @@
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -264,65 +332,51 @@
               <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="anonation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micro" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="anonation" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="micro" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,9 +425,35 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.14088398" />
+    <option name="contentProportion" value="0.10644105" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Application.Producer_1">
+    <configuration name="Consumer_01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQ.consumer.Consumer_01" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQ.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQ.producer.Producer_1" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQ.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.micro.item.pojo.asd" />
       <module name="micro-service-item-api" />
@@ -421,8 +501,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.asd" />
+      <item itemvalue="Application.Consumer_01" />
+      <item itemvalue="Application.Producer_1" />
+      <item itemvalue="Spring Boot.app" />
+      <item itemvalue="Spring Boot.ItemApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producer_1" />
+        <item itemvalue="Application.Consumer_01" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Application.asd" />
       </list>
@@ -462,16 +561,18 @@
       <workItem from="1588207005513" duration="8296000" />
       <workItem from="1588229328870" duration="5510000" />
       <workItem from="1588296009571" duration="11870000" />
+      <workItem from="1588569729434" duration="6312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108972000" />
+    <option name="totallyTimeSpent" value="122160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.27762803" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.2585653" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.30299786" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,10 +580,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.5445402" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.336" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48563218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.08571429" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +594,8 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.33764368" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.33714285" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.15657143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -511,64 +612,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/micro_parent$OrderApplication.ic" NAME="OrderApplication Coverage Results" MODIFIED="1587954798834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/AbstractPropertyAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/BeanInfoFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/BeanWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/InjectionPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1669">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1224">
@@ -768,49 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk8/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/asd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -860,27 +868,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java">
+    <entry file="file://$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/asd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/ExtRateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/anonation/aop/RateLimiterAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="1224">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk8/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="74" column="76" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/TestOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/MQConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/producer/Producer_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQ/consumer/Consumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

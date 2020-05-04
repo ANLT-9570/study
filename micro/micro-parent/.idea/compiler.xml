@@ -12,6 +12,7 @@
         <module name="micro-service-user" />
         <module name="micro-eureka-server" />
         <module name="micro-common-db" />
+        <module name="micro-service-test" />
         <module name="micro-service-order-api" />
         <module name="micro-service-item-api" />
         <module name="micro-service-order" />
@@ -37,6 +38,7 @@
       <module name="micro-service-item-api" options="-parameters" />
       <module name="micro-service-order" options="-parameters" />
       <module name="micro-service-order-api" options="-parameters" />
+      <module name="micro-service-test" options="-parameters" />
       <module name="micro-service-user" options="-parameters" />
       <module name="micro-service-user-api" options="-parameters" />
     </option>
