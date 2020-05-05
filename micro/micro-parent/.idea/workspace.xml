@@ -259,6 +259,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588606898950" />
   </component>
   <component name="RecentsManager">
@@ -363,12 +366,12 @@
     <list>
       <item itemvalue="Application.asd" />
       <item itemvalue="Application.Consumer_02" />
+      <item itemvalue="Application.Producer_1" />
       <item itemvalue="Spring Boot.app" />
       <item itemvalue="Spring Boot.ItemApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
-      <item itemvalue="Application.Producer_1" />
     </list>
     <recent_temporary>
       <list>
