@@ -6,8 +6,7 @@ spring:
     url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/m_order?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: wech111933
-    type: com.alibaba.druid.pool.DruidDataSource
-
+#    type: com.alibaba.druid.pool.DruidDataSource
     # 下面为连接池的补充设置，应用到上面所有数据源中
     initial-size: 5
     min-idle: 5

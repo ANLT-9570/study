@@ -12,11 +12,11 @@ public class DirectConfig {
     public static final String QUEUE_NAME_DIRECT_01 = "SB_DIRECT_01";
     public static final String QUEUE_NAME_DIRECT_02 = "SB_DIRECT_02";
     //定义交换机名称
-    private static final String EXCHANGE_NAME_02 = "SB_EX_02";
-    private static final String EXCHANGE_NAME_03 = "SB_EX_03";
+    public static final String EXCHANGE_NAME_02 = "SB_EX_02";
+    public static final String EXCHANGE_NAME_03 = "SB_EX_03";
     // 路由键
-    private static final String ROUTING_KEY_01 = "routing_key_01";
-    private static final String ROUTING_KEY_02 = "routing_key_02";
+    public static final String ROUTING_KEY_01 = "routing_key_01";
+    public static final String ROUTING_KEY_02 = "routing_key_02";
     //1 定义队列
     @Bean
     public Queue Direct_01(){

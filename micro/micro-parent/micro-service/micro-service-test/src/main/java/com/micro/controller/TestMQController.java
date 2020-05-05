@@ -25,4 +25,8 @@ public class TestMQController {
     public void direct_send(String routingKey){
         producer_01.send(routingKey);
     }
+    @GetMapping("send_direct02")
+    public void direct_send2(String routingKey){
+        producer_01.send2(routingKey);
+    }
 }
