@@ -44,6 +44,19 @@ spring:
     password: 123456
     virtual-host: /xc
     port: 5672
+    publisher-returns: true
+    publisher-confirms: true   #消息发送到交互机是否回调
+    listener:
+      simple:
+        retry:
+          ####最大重试次数（默认无数次）
+          max-attempts: 5
+          ####开启消费者重试
+          enabled: true
+          ####重试间隔时间ms
+          initial-interval: 3000
+        ####开启手动ack
+        acknowledge-mode: manual
 
 ###服务注册到eureka注册中心的地址
 eureka:
