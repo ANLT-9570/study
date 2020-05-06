@@ -17,11 +17,14 @@ public class TT_Dlx_Producer_01 {
 
     @Autowired
     RabbitTemplate rabbitTemplate;
+    @Autowired
+    AmqpTemplate amqpTemplate;
 
     public void send(String routingKey){
+
         Date date = new Date();
         String msg = "生产..."+date.getTime();
-        rabbitTemplate.convertAndSend(DLXConfig.TT_DLX_EXCHANGE_01, DLXConfig.TT_DLX_ROUTING_KEY_01, msg, new MessagePostProcessor() {
+        amqpTemplate.convertAndSend(DLXConfig.TT_DLX_EXCHANGE_01, DLXConfig.TT_DLX_ROUTING_KEY_01, msg, new MessagePostProcessor() {
             @Override
             public Message postProcessMessage(Message message) throws AmqpException {
                 message.getMessageProperties().setExpiration("10000");//设置消息的过期时间
