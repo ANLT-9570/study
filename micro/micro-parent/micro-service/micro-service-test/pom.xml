@@ -22,5 +22,16 @@
             <version>5.7.3</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.example.xc</groupId>
+            <artifactId>micro-service-order</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example.xc</groupId>
+            <artifactId>micro-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

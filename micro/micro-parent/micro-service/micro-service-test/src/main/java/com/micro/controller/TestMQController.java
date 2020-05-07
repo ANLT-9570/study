@@ -1,7 +1,10 @@
 package com.micro.controller;
 
+import com.micro.RedisTest.RedisOrderExpire;
 import com.micro.springBoot_RabbitMq.Direct.Producer.DirectProducer_01;
 import com.micro.springBoot_RabbitMq.Fanout.Producer.FanoutProducer_01;
+import com.micro.springBoot_RabbitMq.MQTimeToLive.TTLProducer_01;
+import com.micro.springBoot_RabbitMq.OrderTest.OrderTest;
 import com.micro.springBoot_RabbitMq.dlx.TT_Dlx_Producer_01;
 import com.micro.springBoot_RabbitMq.topic.Producer.TopicProducer_01;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +24,12 @@ public class TestMQController {
     TopicProducer_01 topicProducer_01;
     @Autowired
     TT_Dlx_Producer_01 tt_dlx_producer_01;
+    @Autowired
+    OrderTest orderTest;
+    @Autowired
+    RedisOrderExpire orderExpire;
+    @Autowired
+    TTLProducer_01 ttlProducer_01;
 
     @GetMapping("send_fanout01")
     public void send(String queueName){
@@ -49,5 +58,30 @@ public class TestMQController {
     @GetMapping("send_td")
     public void tt_dlx_producer_01(String routingKey){
         tt_dlx_producer_01.send(routingKey);
+    }
+
+
+    @GetMapping("send_order_msg")
+    public String send_order_msg(){
+        return orderTest.send_order_msg();
+    }
+
+    //主动调用接口查询消费结果
+    @GetMapping("/getOrder")
+    public String send_order_msg(String orderId){
+        return orderTest.getOrder(orderId);
+    }
+
+    //30分钟未支付，自动过期 基于redis
+    @GetMapping("/isExpire")
+    public String redisTimeToLive(){
+        return orderExpire.RedisOrder();
+    }
+
+    //30分钟未支付，自动过期 基于MQ
+    @GetMapping("/MQisExpire")
+    public String MQTimeToLive(){
+        ttlProducer_01.send();
+        return "success";
     }
 }

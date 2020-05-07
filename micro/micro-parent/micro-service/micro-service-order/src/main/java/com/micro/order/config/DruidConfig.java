@@ -22,8 +22,8 @@ public class DruidConfig {
     @Value("${spring.datasource.url}")
     private String dbUrl;
  
-    @Value("${spring.datasource.type}")
-    private String type;
+//    @Value("${spring.datasource.type}")
+//    private String type;
  
 //    @Value("${loginUsername}")
 //    private String loginUsername;

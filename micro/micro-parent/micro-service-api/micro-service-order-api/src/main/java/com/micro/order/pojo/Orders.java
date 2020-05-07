@@ -25,5 +25,7 @@ public class Orders {
     @Column(name = "create_time")
     private Date createTime = new Date();
 
-
+    @ApiModelProperty(value = "状态")
+    @Column(name = "stat")
+    private int stat = 2;
 }

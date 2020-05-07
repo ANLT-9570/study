@@ -32,8 +32,8 @@ public class DLXConfig {
     public Queue TT_DLX_01(){
         //绑定一个死信队列
         Map<String,Object> arguments = new HashMap<>();
-        arguments.put("x-dead-letter-exchange",DLX_QUEUE_01);
-        arguments.put("x-message-ttl", 10000); // 10 秒钟后成为死信
+        arguments.put("x-dead-letter-exchange",DLX_EXCHANGE_01);
+//        arguments.put("x-message-ttl", 10000); // 10 秒钟后成为死信
         arguments.put("x-dead-letter-routing-key",DLX_ROUTING_KEY_01);
         return new Queue(TT_DLX_QUEUE_01,true,false,false,arguments);
     }
