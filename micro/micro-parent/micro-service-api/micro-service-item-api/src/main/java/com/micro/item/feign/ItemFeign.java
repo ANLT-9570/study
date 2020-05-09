@@ -13,6 +13,9 @@ public interface ItemFeign {
     @PostMapping("/v1/item/insert")
     public Result insert(Item item);
 
-    @GetMapping("/findById")
+    @GetMapping("/v1/item/findById")
     public Result findById(Long id);
+
+    @GetMapping("/v1/item/findByName")
+    public Result findByName(String Name);
 }

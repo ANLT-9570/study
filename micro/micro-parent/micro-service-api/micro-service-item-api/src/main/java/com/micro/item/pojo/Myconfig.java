@@ -8,6 +8,5 @@ public class Myconfig {
 
     @Bean
     public void sad(){
-        new Person();
     }
 }

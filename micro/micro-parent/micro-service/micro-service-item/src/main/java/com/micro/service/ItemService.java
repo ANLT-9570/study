@@ -8,4 +8,6 @@ public interface ItemService {
     Result insert(Item order);
 
     Result findById(Long id);
+
+    Result findByName(String name);
 }

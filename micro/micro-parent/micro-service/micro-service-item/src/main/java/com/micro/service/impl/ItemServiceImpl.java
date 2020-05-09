@@ -28,4 +28,10 @@ public class ItemServiceImpl implements ItemService {
         Item o = (Item)itemMapper.selectById(id);
         return Result.successResult(o);
     }
+
+    @Override
+    public Result findByName(String name) {
+        Item o = itemMapper.selectByName(name);
+        return Result.successResult(o);
+    }
 }

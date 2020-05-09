@@ -37,4 +37,13 @@ public class ItemController {
     public Result findById(Long id){
         return itemService.findById(id);
     }
+
+    @GetMapping("/findByName")
+    @ApiOperation(value = "根据name查询",notes = "findByName")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "Name",value = "name"),
+    })
+    public Result findByName(String Name){
+        return itemService.findByName(Name);
+    }
 }

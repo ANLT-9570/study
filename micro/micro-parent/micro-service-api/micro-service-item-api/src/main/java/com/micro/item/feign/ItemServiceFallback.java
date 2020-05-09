@@ -15,4 +15,9 @@ public class ItemServiceFallback implements ItemFeign {
     public Result findById(Long id) {
         return Result.successResult("您请求的数据正在来的路上，消等.....");
     }
+
+    @Override
+    public Result findByName(String Name)  {
+        return Result.successResult("您请求的数据正在来的路上，消等.....");
+    }
 }

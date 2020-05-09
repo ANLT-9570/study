@@ -14,6 +14,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.UUID;
 
+/*
+* 订单过期后放到死信队列
+* */
 @Component
 public class TTLProducer_01 {
 

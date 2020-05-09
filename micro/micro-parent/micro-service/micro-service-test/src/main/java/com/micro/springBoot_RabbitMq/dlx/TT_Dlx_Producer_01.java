@@ -1,7 +1,6 @@
 package com.micro.springBoot_RabbitMq.dlx;
 
 import com.micro.springBoot_RabbitMq.config.DLXConfig;
-import com.micro.springBoot_RabbitMq.config.TopicConfig;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Message;
@@ -12,6 +11,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
+/*
+*
+* 死信队列的test
+* */
 @Component
 public class TT_Dlx_Producer_01 {
 

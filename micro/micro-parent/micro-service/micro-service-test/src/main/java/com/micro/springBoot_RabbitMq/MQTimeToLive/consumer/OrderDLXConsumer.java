@@ -11,6 +11,10 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.util.Map;
 
+/*
+*
+* 死信队列消费者
+* */
 @Component
 @RabbitListener(queues = OrderDLXConfig.ORDER_QUEUE_DLX)
 public class OrderDLXConsumer {
