@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="154c4ad8-2616-4362-8e2d-99ed3f249fc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-order/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-user/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-test/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service/micro-service-item/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/micro-common/target/" />
+    <ignored path="$PROJECT_DIR$/micro-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/micro-common-db/target/" />
+    <ignored path="$PROJECT_DIR$/micro-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/micro-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-api/micro-service-item-api/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-api/micro-service-order-api/target/" />
+    <ignored path="$PROJECT_DIR$/micro-service-api/micro-service-user-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="micro-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/Person4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-service-api/micro-service-item-api/src/main/java/com/micro/item/pojo/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/config/FanoutConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/FanoutProducer/FanoutProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/controller/TestMQ.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/Producer/FanoutProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/FanoutConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/consumer/FanoutConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/consumer/FanoutConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/Producer/FanoutProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/test_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/FanoutConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/FanoutConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/Producer/FanoutProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-common-db/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQTest/fanout/producer/ProducerFanout.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/test_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/FanoutConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/FanoutConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/Producer/FanoutProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_03.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/Producer/TopicProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/TopicConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/Person66.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/DirectConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/DirectConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/DirectConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/Producer/DirectProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/DlxProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/TT_Dlx_Producer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/FanoutConsumer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/FanoutConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/OrderTest/OrderTest.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/listion/ReadisKeyListener.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/listion/RedisKeyListener.java" />
+        <option value="$PROJECT_DIR$/micro-common/src/main/java/com/micro/common/utils/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/micro-service-api/micro-service-order-api/src/main/java/com/micro/order/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/RedisOrderExpire.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/listion/RedisListenerConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/config/RedisListenerConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/controller/TestMQController.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/MQTimeToLive/consumer/OrderDLXConsumer.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/MQTimeToLive/TTLProducer_01.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/DLXConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/LordConsumer_02.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/OrderDLXConfig.java" />
+        <option value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/DxlConsumer_01.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="492" />
+    <option name="y" value="-2" />
+    <option name="width" value="1408" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-common-db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-service-item-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588777223766" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.micro.springBoot_RabbitMq.MQTimeToLive" />
+      <recent name="com.micro.springBoot_RabbitMq.dlx" />
+      <recent name="com.micro.springBoot_RabbitMq.config" />
+      <recent name="com.micro.springBoot_RabbitMq.topic" />
+      <recent name="com.micro.springBoot_RabbitMq.topic.consumer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\study\micro\micro-parent\micro-service\micro-service-test\src\main\java\com\micro\springBoot_RabbitMq\dlx" />
+      <recent name="D:\cloud\study\micro\micro-parent\micro-service\micro-service-test\src\main\java\com\micro\springBoot_RabbitMq\topic" />
+      <recent name="D:\cloud\study\micro\micro-parent\micro-service\micro-service-test\src\main\java\com\micro\springBoot_RabbitMq\Direct" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.14088398" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="ConsumerFanout_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQTest.fanout.consumer.ConsumerFanout_1" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQTest.fanout.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTopic_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQTest.topic.consumer.ConsumerTopic_3" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQTest.topic.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerFanout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQTest.fanout.producer.ProducerFanout" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQTest.fanout.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.MQTest.topic.ProducerTopic" />
+      <module name="micro-service-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.MQTest.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-item" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.ItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProducerTopic" />
+      <item itemvalue="Application.ConsumerTopic_3" />
+      <item itemvalue="Application.ProducerFanout" />
+      <item itemvalue="Application.ConsumerFanout_1" />
+      <item itemvalue="Spring Boot.app" />
+      <item itemvalue="Spring Boot.ItemApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Application.ProducerFanout" />
+        <item itemvalue="Application.ConsumerFanout_1" />
+        <item itemvalue="Application.ProducerTopic" />
+        <item itemvalue="Application.ConsumerTopic_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="154c4ad8-2616-4362-8e2d-99ed3f249fc1" name="Default Changelist" comment="" />
+      <created>1587362594310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587362594310</updated>
+      <workItem from="1587362597054" duration="5367000" />
+      <workItem from="1587367981277" duration="1709000" />
+      <workItem from="1587369702667" duration="6212000" />
+      <workItem from="1587429941037" duration="3389000" />
+      <workItem from="1587633848957" duration="1244000" />
+      <workItem from="1587690450756" duration="864000" />
+      <workItem from="1587711505684" duration="1632000" />
+      <workItem from="1587713158440" duration="1580000" />
+      <workItem from="1587715092643" duration="2483000" />
+      <workItem from="1587718519060" duration="1597000" />
+      <workItem from="1587950295459" duration="3525000" />
+      <workItem from="1587953923733" duration="8532000" />
+      <workItem from="1587968946320" duration="1339000" />
+      <workItem from="1587970517345" duration="8816000" />
+      <workItem from="1588034707286" duration="3559000" />
+      <workItem from="1588040225443" duration="9094000" />
+      <workItem from="1588065667509" duration="2599000" />
+      <workItem from="1588121055849" duration="19755000" />
+      <workItem from="1588207005513" duration="8296000" />
+      <workItem from="1588229328870" duration="5510000" />
+      <workItem from="1588296009571" duration="12036000" />
+      <workItem from="1588601834923" duration="235000" />
+      <workItem from="1588640857994" duration="6318000" />
+      <workItem from="1588655358630" duration="13045000" />
+      <workItem from="1588669808598" duration="3043000" />
+      <workItem from="1588679774683" duration="10340000" />
+      <workItem from="1588741931133" duration="11367000" />
+      <workItem from="1588757331909" duration="1850000" />
+      <workItem from="1588765597578" duration="6346000" />
+      <workItem from="1588816980654" duration="135000" />
+      <workItem from="1588817870796" duration="5584000" />
+      <workItem from="1588827621452" duration="9850000" />
+      <workItem from="1588838055570" duration="3824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87204000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496063" visible="true" weight="0.351752" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.30299786" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.503937" side_tool="true" weight="0.28234503" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.336" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5417143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41942856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.09051724" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.336" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25802997" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32976446" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496063" visible="true" weight="0.29649594" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.30299786" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.503937" side_tool="true" weight="0.28234503" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.336" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53257143" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.09051724" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.33714285" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25802997" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32976446" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQTest/fanout/producer/ProducerFanout.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQTest/fanout/consumer/ConsumerFanout_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/MQTest/fanout/producer/ProducerFanout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/AmqpTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/test_01.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/TopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/Producer/TopicProducer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/Person66.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/support/converter/MessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/support/converter/SimpleMessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/2.2.5.RELEASE/spring-rabbit-2.2.5.RELEASE.jar!/org/springframework/amqp/rabbit/connection/CorrelationData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/2.2.5.RELEASE/spring-rabbit-2.2.5.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1791" column="38" lean-forward="true" selection-start-line="1791" selection-start-column="38" selection-end-line="1791" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4248">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/support/AmqpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/AbstractDeclarable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/DirectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/Producer/FanoutProducer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-order/src/main/java/com/micro/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/listener/KeyExpirationEventMessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-common/src/main/java/com/micro/common/utils/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/redis/clients/jedis/3.1.0/jedis-3.1.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="203" column="22" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/config/RedisListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/listion/RedisKeyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1477">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/OrderTest/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service-api/micro-service-order-api/src/main/java/com/micro/order/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/RedisTest/RedisOrderExpire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/consumer/FanoutConsumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/topic/consumer/TopicConsumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Fanout/consumer/FanoutConsumer_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/DirectExchange.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/DirectConsumer_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/consumer/DirectConsumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/Direct/Producer/DirectProducer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+          <folding>
+            <element signature="method#send#0;class#DirectProducer_01#0" />
+            <element signature="method#send2#0;class#DirectProducer_01#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/DLXConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/TT_Dlx_Producer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/config/OrderDLXConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/DxlConsumer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/dlx/consumer/LordConsumer_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/controller/TestMQController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/MQTimeToLive/consumer/OrderDLXConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service/micro-service-test/src/main/java/com/micro/springBoot_RabbitMq/MQTimeToLive/TTLProducer_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
